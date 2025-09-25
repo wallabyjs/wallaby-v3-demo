@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`car > accelerates 1`] = `
+Car {
+  "engine": "2.85 L",
+  "power": "97 kW",
+  "speed": 89,
+}
+`;

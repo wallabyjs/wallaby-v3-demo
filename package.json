@@ -1,0 +1,14 @@
+{
+  "name": "wallaby-v3-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "vitest": "3.2.4"
+  }
+}
