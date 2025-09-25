@@ -11,5 +11,8 @@ it('multiplies numbers', () => {
 
 it('is slow for larger numbers', () => {
   // increase this number SLOWLY to create heavy load
+  // values larger than 40 will be rejected, as they will result in very
+  // lengthy execution times (Vitest's 5000ms timeout only applies to async code;
+  // it will not interrupt a hot test like this)
   expect(slowFibonacci(25)).toBe(75025)
 });

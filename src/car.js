@@ -10,6 +10,7 @@ export class Car {
   }
 
   brake() {
+    // fix this reference to get rid of the associated failure(s)
     speed--;
   }
 }
