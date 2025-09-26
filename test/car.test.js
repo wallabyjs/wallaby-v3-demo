@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { Car } from '../src/car';
+import { helloWorld } from '../src/common';
 
 let car;
 
@@ -9,6 +10,7 @@ describe('car', () => {
   });
 
   it('has correct engine', () => {
+    console.log(helloWorld());
     expect(car.engine).toBe('2.85 L');
   });
 
